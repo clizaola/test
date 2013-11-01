@@ -1,0 +1,76 @@
+body{
+	background-color: #F5F5F5;
+	padding: 0px;
+	margin: 0px;
+}
+header, footer{
+	color:#FFF;
+	border: 1px solid #20911e;
+	box-shadow: 0 0 10px 5px #356b0b inset; 
+	background-color: #68b12f;
+}
+nav ul{
+	padding: 10 20px;
+	margin: 0px;
+	list-style-type:none;
+	list-style-position:outside;
+}
+nav ul h1{
+	color: #FFF;
+}
+.flash-success, .flash-fail{
+	width: 500px;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.flash-success{
+	background-color: green;
+}
+.flash-fail{
+	background-color: red;
+}
+.contact_form ul {
+    width:550px;
+    list-style-type:none;
+	list-style-position:outside;
+	margin:0px auto;
+	padding:0px;
+}
+.contact_form li{
+	padding:12px; 
+	border-bottom:1px solid #eee;
+	position:relative;
+} 
+
+.contact_form label {
+	width:150px;
+	margin-top: 3px;
+	display:inline-block;
+	float:left;
+	padding:3px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+.contact_form input {
+	height:20px; 
+	width:220px; 
+	padding:5px 8px;
+}
+
+.contact_form input[type='submit']{
+	height: 30px;
+	background-color: #68b12f;
+	color: white;
+	font-weight: bold;
+	padding: 6px 20px;
+	text-align: center;
+	text-shadow: 0 -1px 0 #396715;
+}
+.contact_form input[type='submit'] {
+	border: 1px solid #20911e;
+	box-shadow: 0 0 10px 5px #356b0b inset; 
+}
